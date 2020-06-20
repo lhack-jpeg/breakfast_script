@@ -1,0 +1,106 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[7]:
+
+
+print("Good morning! What would you like for breakfast?")
+print("You can have eggs, cereal, fruit or pancakes")
+breakfast = input("what would you like for breakfast?: ")
+
+if breakfast == "eggs":
+    print("how would you like them")
+    print("you can have them fried, boiled or scrambled")
+    eggstype = input("Which style would you like?: ")
+    if eggstype =="boiled":
+        print("You can have them hard boiled or soft boiled")
+        boiledtype = input("would you like hard or soft?: ")
+        if boiledtype == "hard":
+            print("Your hard boiled eggs will be ready soon")
+        else:
+            print("Your soft boiled eggs will be ready soon")
+    elif eggstype == "fried":
+        print("You can have them sunny side up, over easy, over medium or over hard")
+        friedtype = input("how would you like them done?: ")
+        if friedtype == "sunny side up":
+            print("Your sunny side up eggs will be ready soon")
+        elif friedtype == "over easy":
+            print("Your over easy eggs will be ready soon")
+        elif friedtype == "over medium":
+            print("Your over medium eggs will be ready soon")
+        elif friedtype == "over hard":
+            print("Your over hard eggs will be ready soon")
+    elif eggstype == "scrambled":
+        print("Your scrambled eggs will be ready soon")
+elif breakfast == "cereal":
+    print("We have porridge, museli, corn flakes or rice bubbles")
+    cerealtype = input("Which would you like?: ")
+    if cerealtype == "porridge":
+        print("Would you like to have full or light milk?")
+        milk = input("which milk would you like?: ")
+        if milk == "full":
+            print("Your porridge with full cream milk will be ready soon")
+        else:
+            print("Your porridge with light cream milk will be ready soon")
+    elif cerealtype == "corn flakes":
+        print("Would you like to have full or light milk?")
+        milk = input("which milk would you like?: ")
+        if milk == "full":
+            print("Your corn flakes with full cream milk will be ready soon")
+        else:
+            print("Your corn flakes with light cream milk will be ready soon")
+    elif cerealtype == "rice bubbles":
+        print("Would you like to have full or light milk?")
+        milk = input("which milk would you like?: ")
+        if milk == "full":
+            print("Your Rice Bubbles with full cream milk will be ready soon")
+        else:
+            print("Your Rice Bubbles with light cream milk will be ready soon")
+    elif cerealtype == "museli":
+        print("You can get that fruit or yoghurt")
+        topping = input("which would you like?: ")
+        if topping == "fruit":
+            print("Your museli with fruit will be ready soon")
+        else:
+            print("Your museli with yoghurt will be ready soon")
+elif breakfast == "fruit":
+    print("would you like a fruit salad or fruit platter?")
+    fruittype = input("which would you like?: ")
+    if fruittype == "fruit salad":
+        print("Your fruit salad will be ready soon")
+    else:
+        print("Your Fruit platter will be ready soon")
+elif breakfast == "pancakes":
+    print("We have strawberry, blueberry, or plain")
+    pancaketype = input("which would you like?: ")
+    if pancaketype == "strawberry":
+        print("Would you like syrup on them?")
+        syrup = input("Yes or no: ")
+        if syrup == "Yes":
+            print("Your strawberry pancakes with syrup will be ready shortly")
+        else:
+            print("Your starwberry pancakes will be ready soon")
+    if pancaketype == "blueberry":
+        print("Would you like syrup on them?")
+        syrup = input("Yes or no: ")
+        if syrup == "Yes":
+            print("Your blueberry pancakes with syrup will be ready shortly")
+        else:
+            print("Your blueberry pancakes will be ready soon")
+    if pancaketype == "plain":
+        print("Would you like syrup on them?")
+        syrup = input("Yes or no: ")
+        if syrup == "Yes":
+            print("Your pancakes with syrup will be ready shortly")
+        else:
+            print("Your pancakes will be ready soon")
+print("Enjoy your breakfast!")
+
+
+# In[ ]:
+
+
+
+
+
+# breakfast_script
